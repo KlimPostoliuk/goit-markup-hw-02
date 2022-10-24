@@ -13,7 +13,7 @@
     --background-color: #2F303A;
 }
 .body {
-background: #F5F5F5;
+background: var(--third-text-color);
 color: var(--primery-text-color);
 font-family: 'Roboto', sans-serif;
 
@@ -90,8 +90,6 @@ color: var(--third-text-color);
         margin: -1px;
 }
 .title.subject{
-    color: var(--primery-text-color);
-    font-style: normal;
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -106,7 +104,6 @@ color: var(--secondary-text-color);
         letter-spacing: 0.03em;
 }
 .section-title{
-    color: var(--primery-text-color);
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -123,7 +120,6 @@ color: var(--secondary-text-color);
         letter-spacing: 0.03em;
 }
 .caption{
-    color: var(--primery-text-color);
     font-weight: 500;
         font-size: 16px;
         line-height:1.18;
@@ -176,7 +172,6 @@ font-style: normal;
 .button{
 background-color: var(--accent-color);
 color: var(--third-text-color);
-    font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -188,7 +183,6 @@ color: var(--third-text-color);
 .button-nav .button{
 background-color:  #F5F4FA;;
 color:var(--primery-text-color);
-    font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -206,8 +200,6 @@ color:var(--primery-text-color);
 
 }
 .caption{
-    color:var(--primery-text-color);
-    font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
