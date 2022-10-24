@@ -89,6 +89,9 @@ color: var(--third-text-color);
         clip-path: inset(50%);
         margin: -1px;
 }
+.block {
+    background: #F5F4FA;
+}
 .title.subject{
     font-weight: 700;
         font-size: 14px;
@@ -125,6 +128,7 @@ color: var(--secondary-text-color);
         line-height:1.18;
         text-align: center;
         letter-spacing: 0.03em;
+        color: var(--primery-text-color);
 }
 .footer{
     background-color: var(--background-color);
